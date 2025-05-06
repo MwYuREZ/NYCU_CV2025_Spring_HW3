@@ -71,5 +71,8 @@ python infer_swin_anc.py
 ```
 
 ## Performance Snapshot  
+![image](https://github.com/user-attachments/assets/efc31d2c-84b1-4242-85ae-026d9b15c64e)
+![image](https://github.com/user-attachments/assets/94651087-7070-42e4-8538-3dbc98f3d22d)  
+with private score 0.4307  
 
 

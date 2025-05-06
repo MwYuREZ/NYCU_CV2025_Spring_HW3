@@ -10,7 +10,7 @@ We build upon the standard `maskrcnn_resnet50_fpn_v2` implementation from TorchV
 ## Environment Setup  
 Execution environment: Ubuntu 24.04.2
 ```sh
-pip3 install -r requirement.txt  
+pip3 install -r requirements.txt  
 ```
 
 ## How to exexute  

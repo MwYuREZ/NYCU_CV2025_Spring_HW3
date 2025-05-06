@@ -8,15 +8,28 @@ In this assignment, we tackle an instance segmentation task on colored medical m
 We build upon the standard `maskrcnn_resnet50_fpn_v2` implementation from TorchVision, but replacement its ResNet50 backbone with a custom Swin-Transformer + FPN encorder. 
 
 ## Environment Setup  
-Execution environment: Ubuntu 24.04.2
-```sh
-pip3 install -r requirements.txt  
-```
+Execution environment: Ubuntu 24.04.2  
+- Create New Virtual Environment
+  ```sh
+  python -m venv visual_recog_lab3  
+  ```
+- Activate the virtual environment
+  ```sh
+  source visual_recog_lab3/bin/activate
+  ```
+- Download the required dependencies   
+  ```sh
+  pip3 install -r requirements.txt  
+  ```
 
 ## How to exexute  
 Clone the repo  
 ```sh
 git clone https://github.com/MwYuREZ/NYCU_CV2025_Spring_HW3.git
+```
+Download the dataset  
+```sh
+https://drive.google.com/file/d/1B0qWNzQZQmfQP7x7o4FDdgb9GvPDoFzI/view?usp=sharing
 ```
 Data & Project Structure  
 ```sh
